@@ -9,7 +9,8 @@ namespace Oculus_Clinic_Server.Data
         {
 
         }
-        
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Employeer> Employeers { get; set; }
 
     } 
 }
